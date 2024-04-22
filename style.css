@@ -302,3 +302,316 @@ footer {
   color: var(--Bright-Blue);
   border: 2px solid var(--Bright-Blue);
 }
+
+@media screen and (max-width: 425px) {
+  header {
+    padding: 1.5rem;
+  }
+
+  .link-pages {
+    gap: 1rem;
+  }
+
+  .link-pages a {
+    font-size: 0.9rem;
+  }
+
+  .header-img img {
+    height: 30px;
+    width: 90px;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 2rem;
+  }
+
+  .card-text-1 h1 {
+    font-size: 1.5rem;
+    width: 23ch;
+    text-align: center;
+  }
+
+  .card-text-1 p {
+    font-size: 1rem;
+    width: 39ch;
+    text-align: center;
+  }
+
+  .card-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-img img {
+    width: 320px;
+    margin-bottom: 1rem;
+  }
+
+  .email-search-bar input {
+    margin-bottom: 2rem;
+  }
+
+  .email-search-bar button {
+    width: 360px;
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .card-text-2 h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .card-text-2 p {
+    font-size: 1rem;
+    width: 41ch;
+  }
+
+  .underline {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .card-img2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-img2 img {
+    width: 320px;
+    margin-bottom: 1rem;
+  }
+
+  .profile-card {
+    width: 360px;
+  }
+
+  .profile-text {
+    font-size: 0.9rem;
+    width: 40ch;
+  }
+
+  .avatar img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .avatar-text {
+    font-size: 0.9rem;
+  }
+
+  .little-foot {
+    padding: 2rem;
+  }
+
+  .card-3 {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .card-text-3 h3 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .card-text-3 p {
+    width: 36ch;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .email-search-bar-2 input {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .email-search-bar-2 button {
+    width: 250px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+  }
+
+  .email {
+    margin-bottom: 4rem;
+  }
+
+  .footer-center {
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    gap: 2rem;
+  }
+
+  .footer-right {
+    justify-content: center;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    padding: 1.5rem;
+  }
+
+  .link-pages {
+    gap: 1rem;
+  }
+
+  .link-pages a {
+    font-size: 0.9rem;
+  }
+
+  .header-img img {
+    height: 30px;
+    width: 90px;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 2rem;
+  }
+
+  .card-text-1 h1 {
+    font-size: 1.5rem;
+    width: 21ch;
+    text-align: center;
+  }
+
+  .card-text-1 p {
+    font-size: 0.9rem;
+    width: 38ch;
+    text-align: center;
+  }
+
+  .card-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-img img {
+    width: 311px;
+    margin-bottom: 1rem;
+  }
+
+  .email-search-bar input {
+    margin-bottom: 2rem;
+    width: 311px;
+  }
+
+  .email-search-bar button {
+    width: 311px;
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .card-text-2 h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .card-text-2 p {
+    font-size: 0.9rem;
+    width: 38ch;
+  }
+
+  .underline {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .card-img2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-img2 img {
+    width: 311px;
+    margin-bottom: 1rem;
+  }
+
+  .profile-card {
+    width: 311px;
+  }
+
+  .profile-text {
+    font-size: 0.9rem;
+    width: 36ch;
+  }
+
+  .avatar img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .avatar-text {
+    font-size: 0.9rem;
+  }
+
+  .little-foot {
+    padding: 2rem;
+  }
+
+  .card-3 {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .card-text-3 h3 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .card-text-3 p {
+    width: 36ch;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .email-search-bar-2 input {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .email-search-bar-2 button {
+    width: 250px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+  }
+
+  .email {
+    margin-bottom: 4rem;
+  }
+
+  .footer-center {
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    gap: 2rem;
+  }
+
+  .footer-right {
+    justify-content: center;
+    margin-right: 0;
+  }
+}
